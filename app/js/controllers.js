@@ -2,9 +2,9 @@
 
 /* Controllers */
 
-function PhoneListCtrl($scope, $http) {
-  $http.get('interns/interns.json').success(function(data) {
-    $scope.interns = data;
+function DogListCtrl($scope, $http) {
+  $http.get('dogs/dogs.json').success(function(data) {
+    $scope.dogs = data;
   });
 
   $scope.orderProp = 'name';
@@ -13,9 +13,9 @@ function PhoneListCtrl($scope, $http) {
 //PhoneListCtrl.$inject = ['$scope', '$http'];
 
 
-function PhoneDetailCtrl($scope, $routeParams, $http) {
-   $http.get('interns/' + $routeParams.phoneId + '.json').success(function(data) {
-   $scope.phone = data;
+function DogDetailCtrl($scope, $routeParams, $http) {
+   $http.get('dogs/' + $routeParams.dogId + '.json').success(function(data) {
+   $scope.dog = data;
   });
 }
 

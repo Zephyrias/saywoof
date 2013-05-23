@@ -2,11 +2,11 @@
 
 /* App Module */
 
-angular.module('phonecat', []).
+angular.module('dogcat', []).
   config(['$routeProvider', function($routeProvider) {
   $routeProvider.
-      when('/interns', {templateUrl: 'partials/intern-list.html',   controller: PhoneListCtrl}).
-      when('/interns/:phoneId', {templateUrl: 'partials/intern-detail.html', controller: PhoneDetailCtrl}).
-      otherwise({redirectTo: '/interns'});
+      when('/dogs', {templateUrl: 'partials/dog-list.html',   controller: DogListCtrl}).
+      when('/dogs/:dogId', {templateUrl: 'partials/dog-detail.html', controller: DogDetailCtrl}).
+      otherwise({redirectTo: '/dogs'});
 }]);
 
