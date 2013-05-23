@@ -330,17 +330,9 @@ nav ul li:hover{
 }
 
 .search{
-  width: 150px;
   position: absolute;
   right: 8%;
   top: 38px;
-}
-
-.searchbutton{
-  position: absolute;
-  right: 4%;
-  top: 38px;
-
 }
 
 /* MEDIA QUERIES */

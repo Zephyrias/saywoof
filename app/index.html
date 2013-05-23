@@ -27,28 +27,21 @@
   		<h1 class="alt span1"><img src = "photos/saywooflogo.png" style = "width: 150px; position: absolute; left:10%; top:18px"></h1>
     	<nav class="span1 col">
   			<ul class="cf">
-  				<li><a class="alt" href="/app/index.html" style="left:20%">Home</a></li>
-  				<li><a class="alt" href="#" style = "left:35%">Add Dog</a></li>
+  				<li><a class="alt" href="/app/index.html">Home</a></li>
+  				<li><a class="alt" href="/app/partials/add.html">Add</a></li>
+          <li><a class="alt" href="/app/partials/edit.html">Edit</a></li>
   			</ul>
   		</nav>
      <div class = "stripe"></div>
 
     <form class = "search">
-      <input type="search" name="terms" value="{{ terms }}">
-    </form>
-    <form class = "searchbutton">
-      <button>Go fetch</button>
+      <input ng-model="query" type="search" style="width:200px">
     </form>
 
 	 </div>
   </header>
 
   <div ng-view></div>
-
-  <footer>
-    
-  </footer>
-
 </body>
 </html>
 
