@@ -24,15 +24,21 @@
 
   <header class="span2">
   	<div class="inner cf">
-  		<h1 class="alt span1"><img src = "photos/saywooflogo.png" style = "width: 150px;"></h1>
+  		<h1 class="alt span1"><img src = "photos/saywooflogo.png" style = "width: 150px; position: absolute; left:10%"></h1>
     	<nav class="span1 col">
   			<ul class="cf">
   				<li><a class="alt" href="/app/index.html">Home</a></li>
-  				<li><a class="alt" href="#">Groups</a></li>
-  				<li><a class="alt" href="#">Offices</a></li>
+  				<li><a class="alt" href="#">Add Dog</a></li>
   			</ul>
   		</nav>
      <div class = "stripe"></div>
+
+    <form class = "search">
+      <input type="search" name="terms" value="{{ terms }}">
+    </form>
+    <form class = "searchbutton">
+      <button>Go fetch</button>
+    </form>
 
 	 </div>
   </header>

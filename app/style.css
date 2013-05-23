@@ -54,6 +54,12 @@ nav ul, ul { list-style:none; }
   margin-left: 0;
 }
 
+.stripe{
+  background-color:#0a93cc;
+  height:40px;
+  width:100%
+}
+
 body{ 
   font-size: 87.5%;
   color: #252e35; 
@@ -355,10 +361,27 @@ nav ul li:hover{
   border:1px solid #d6007e;
   border-bottom:none
 }
+
 .stripe{
   background-color: #0a93cc;
+  position: absolute;
   height: 4px;
+  top: 70px;
   width: 100%;
+}
+
+.search{
+  width: 150px;
+  position: absolute;
+  right: 8%;
+  top: 25px;
+}
+
+.searchbutton{
+  position: absolute;
+  right: 4%;
+  top: 25px;
+
 }
 
 /* MEDIA QUERIES */
