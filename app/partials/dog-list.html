@@ -2,131 +2,13 @@
 
   <div id = "row1" style = "height: 100%; background-color: white; padding: 50px;">
     <div class = "dog-row-r">
-      <div class = "dog-col-1-5">
+      <div class = "dog-col-1-4" ng-repeat="dog in dogs | filter:query | orderBy:name">
 
-        <a class="pic-link" href="page.html">
+        <a class="pic-link" href="#/interns/{{phone.id}}">
           <img src="http://distilleryimage9.s3.amazonaws.com/38e1648e341211e2be981231380492d8_7.jpg" alt="" />
           <span><b>
-          Name:<br>
-          Breed: <br>
-          Owner: <br>
-          Cuteness:
-          </b></span>
-        </a>
-
-      </div>
-      <div class = "dog-col-1-5">
-
-        <a class="pic-link" href="page.html">
-          <img src="http://distilleryimage5.s3.amazonaws.com/6ca14c9eb8ec11e2927e22000a9e08e3_7.jpg" alt="" />
-          <span><b>
-          Name:<br>
-          Breed: <br>
-          Owner: <br>
-          Cuteness:
-          </b></span>
-        </a>
-
-      </div>
-      <div class = "dog-col-1-5">
-
-        <a class="pic-link" href="page.html">
-          <img src="http://distilleryimage9.s3.amazonaws.com/4a064f86b8ec11e2b34b22000aaa2162_7.jpg" alt="" />
-          <span><b>
-          Name:<br>
-          Breed: <br>
-          Owner: <br>
-          Cuteness:
-          </b></span>
-        </a>
-
-      </div>
-      <div class = "dog-col-1-5">
-
-        <a class="pic-link" href="page.html">
-          <img src="http://distilleryimage1.s3.amazonaws.com/b4c3ab5cb5b811e2863a22000aa8101b_7.jpg" alt="" />
-          <span><b>
-          Name:<br>
-          Breed: <br>
-          Owner: <br>
-          Cuteness:
-          </b></span>
-        </a>
-
-      </div>
-      <div class = "dog-col-1-5">
-
-        <a class="pic-link" href="page.html">
-          <img src="http://distilleryimage0.s3.amazonaws.com/f0adc86e63fb11e2bbaa22000a1fb198_7.jpg" alt="" />
-          <span><b>
-          Name:<br>
-          Breed: <br>
-          Owner: <br>
-          Cuteness:
-          </b></span>
-        </a>
-
-      </div>
-    </div>
-  </div>
-  <div id = "row1" style = "height: 100%; background-color: white; padding: 50px; padding-top: 0px">
-    <div class = "dog-row-r">
-      <div class = "dog-col-1-5">
-
-        <a class="pic-link" href="page.html">
-          <img src="http://distilleryimage9.s3.amazonaws.com/38e1648e341211e2be981231380492d8_7.jpg" alt="" />
-          <span><b>
-          Name:<br>
-          Breed: <br>
-          Owner: <br>
-          </b></span>
-        </a>
-
-      </div>
-      <div class = "dog-col-1-5">
-
-        <a class="pic-link" href="page.html">
-          <img src="http://distilleryimage5.s3.amazonaws.com/6ca14c9eb8ec11e2927e22000a9e08e3_7.jpg" alt="" />
-          <span><b>
-          Name:<br>
-          Breed: <br>
-          Owner: <br>
-          </b></span>
-        </a>
-
-      </div>
-      <div class = "dog-col-1-5">
-
-        <a class="pic-link" href="page.html">
-          <img src="http://distilleryimage9.s3.amazonaws.com/4a064f86b8ec11e2b34b22000aaa2162_7.jpg" alt="" />
-          <span><b>
-          Name:<br>
-          Breed: <br>
-          Owner: <br>
-          </b></span>
-        </a>
-
-      </div>
-      <div class = "dog-col-1-5">
-
-        <a class="pic-link" href="page.html">
-          <img src="http://distilleryimage1.s3.amazonaws.com/b4c3ab5cb5b811e2863a22000aa8101b_7.jpg" alt="" />
-          <span><b>
-          Name:<br>
-          Breed: <br>
-          Owner: <br>
-          </b></span>
-        </a>
-
-      </div>
-      <div class = "dog-col-1-5">
-
-        <a class="pic-link" href="page.html">
-          <img src="http://distilleryimage0.s3.amazonaws.com/f0adc86e63fb11e2bbaa22000a1fb198_7.jpg" alt="" />
-          <span><b>
-          Name:<br>
-          Breed: <br>
-          Owner: <br>
+          Name:<br>{{dog.name}}
+          Owner: <br>{{dog.id}}
           </b></span>
         </a>
 
