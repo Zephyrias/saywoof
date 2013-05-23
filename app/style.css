@@ -46,18 +46,12 @@ nav ul, ul { list-style:none; }
 }
 
 .span1{
-  width: 49.25%;
+  width: 28%;
   
 }
 .span2{
   width: 100%;
   margin-left: 0;
-}
-
-.stripe{
-  background-color:#0a93cc;
-  height:40px;
-  width:100%
 }
 
 body{ 
@@ -306,16 +300,16 @@ nav ul li{
 }
 
 nav a{
-  height: 37px;
+  height: 25px;
   color: white;
-  padding: 20px 20px 0 20px;
+  padding: 35px 20px 0 20px;
   display: block;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 nav ul li.active {
-  height: 43px;
+  height: 20px;
   border: 1px solid #0a93cc;
   border-bottom: none;
   background-color: #0a93cc;
@@ -324,7 +318,6 @@ nav ul li.active {
 nav ul li:hover{
   color:white;
   background-color:#d6007e;
-  border:1px solid #d6007e;
   border-bottom:none
 }
 
@@ -340,13 +333,13 @@ nav ul li:hover{
   width: 150px;
   position: absolute;
   right: 8%;
-  top: 25px;
+  top: 38px;
 }
 
 .searchbutton{
   position: absolute;
   right: 4%;
-  top: 25px;
+  top: 38px;
 
 }
 
