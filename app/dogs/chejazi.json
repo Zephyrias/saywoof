@@ -1,0 +1,58 @@
+{
+        "id": "chejazi", 
+        "name": "Cameron Hejazi",
+        "profileImageUrl": "./photos/boom.png",
+  	    "linkedIn": "http://www.linkedin.com",
+        "age": 21,
+        "title": "",       
+        "school": "University of Michigan",
+        "oneLiner": "Rick Astley is pretty funny",
+        "skills":
+        [
+            {
+                "string": "Brogramming",
+                "percent": 9000
+            },
+            {
+               "string": "Trying new things",
+                "percent": 100
+            },
+            {
+                "string": "Critical thinking",
+                "percent": 70
+            }
+        ],
+        "additional":
+        [
+            {
+                "category": "Interests",
+                "entryImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/320px-Computer-aj_aj_ashton_01.svg.png",
+                "entries":
+                [
+                    {
+                        "text": "User Experience"
+                    },
+                    {
+                        "text": "Internet Rights"
+                    },
+			{
+			"text": "Bitcoin"
+			}
+                ]
+            },
+            {
+                "category": "Hobbies",
+                "entryImage": "./photos/fun.png",
+                "entries":
+                [
+                    {
+                        "text": "Rapid Prototyping"
+                    },
+                    {
+                        "text": "\"Having Fun\""
+                    }
+                ]
+            }
+        ]
+} 
+

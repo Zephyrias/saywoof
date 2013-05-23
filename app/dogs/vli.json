@@ -1,0 +1,78 @@
+{
+ 	    "id": "vli",
+	    "name": "Vicki Li",
+        "profileImageUrl": "photos/Profile.jpg", 
+  	    "linkedIn": "www.linkedin.com/pub/vicki-li/48/744/a7/",
+        "age": 20, 
+        "title": "pikachu",        
+        "school": "University of Michigan",
+        "oneLiner": "I'm not weird, I'm limited edition",
+        "skills":
+        [
+            {
+                "string": "lucid dreaming",
+                "percent": 65
+            },
+            {
+               "string": "accepting challenges",
+                "percent": 96
+            },
+            {
+                "string": "elvish",
+                "percent": 15
+            }
+        ],
+        "additional":
+        [
+            {
+                "category": "Current tendencies",
+                "entryImage": "photos/NerfProfile.jpg",
+                "entries":
+                [
+                    {
+                        "text": "Nerf: New to the culture, not new to hunting people down in my fivefingers shoes. [You guys have no idea what you're getting into.]"
+                    },
+                    {
+                        "text": "Art: Sketching, Photoshopping, drawing on my arm... Worked on a visual novel with a friend at some point as well. "
+                    },
+                    {
+                        "text": "Dressing up, whether for fun or for show (cosplay included): Turns out make-up is like real-life Photoshop. Who knew?"
+                    },
+                    {
+                        "text": "Gaming (especially with other people): And easily 'rant-able' topic. Current favorites include League of Legends and..... yeah, League of Legends."
+                    },
+                    {
+                        "text": "Coding under the influence [of caffeine and dubstep]: If my headphones are on and I'm unresponsive, it's because I challenge-accepted something."
+                    },
+                    {
+                        "text": "Tutoring: Typically helping with math, essay-writing, or standardize tests (stop making faces, it's not that bad)."
+                    },
+                    {
+                        "text": "Talking a lot: Please tell me when to stop."
+                    }
+                ]
+            },
+            {
+                "category": "Previous tendencies",
+                "entryImage": "photos/keytar.jpg",
+                "entries":
+                [
+                    {
+                        "text": "Obsession with languages/codes: Spent time memorizing braille, morse code, Elvish (Sindarin)... have since downgraded to animal noises/gibberish."
+                    },
+                    {
+                        "text": "Being a rockstar: Was in a band with a few friends in high school, playing keyboard/keytar and also singing."
+                    },
+                    {
+                        "text": "Martial arts: Spent some time in high school learning Aikido, which is self-defense. It's supposedly designed for short people..."
+                    },
+                    {
+                        "text": "Anime/Manga: Was interesting high school, but then it turns out it requires this thing called 'free time'."
+                    },
+                    {
+                        "text": "Writing: Started with writing fanfiction with 3 other girls in middle school, ended up enjoying writing overall. (Not fanfiction anymore, though.)"
+                    }
+                ]
+            }
+        ]
+}
