@@ -59,7 +59,7 @@ body{
   color: #252e35; 
   font-family: BentonSans, Helvetica, Arial, sans-serif; 
   line-height: 1.5em;
-  background: #ffffff url('background.png') repeat;
+  background: #ffffff url('photos/background.png') repeat;
 }
 
 h1{
@@ -104,8 +104,7 @@ header h1{
 
 a.pic-link {
   display:block; /* allow height and width to be specified - not needed if floated */
-  height:300px; /* match img */
-  width:300px; /* match img */
+  width:85%; /* match img */
   position:relative; /* so children of .pic-link can be positioned absolutely in relation it */ 
   color:#ffffff;
   }
