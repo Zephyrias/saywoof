@@ -10,14 +10,15 @@
       <div class = "dog-col-1-4" ng-repeat="dog in dogs | filter:query | orderBy:name">
 
         <a class="pic-link" href="#/dogs/{{dog.id}}">
-          <img src="http://distilleryimage9.s3.amazonaws.com/38e1648e341211e2be981231380492d8_7.jpg" alt=""/>
+          <img src="{{dog.profileurl}}" alt=""/>
           <span><b>
              Name: {{dog.name}}<br>
-             Owner: {{dog.id}}
+             Owner: {{dog.owner}}
           </b></span>
         </a>
-
       </div>
+
     </div>
   </div>
+
 </div> <!--! end of #container -->

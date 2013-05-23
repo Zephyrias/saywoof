@@ -1,0 +1,57 @@
+{
+        "id": "charlie1", 
+        "name": "Charles",
+        "profileImageUrl": "http://distilleryimage7.s3.amazonaws.com/a5849c4c14b811e2b23022000a1e86a4_7.jpg",
+        "breed": "Bichon Frise",
+        "age": "3",        
+        "barklevel": "5",
+        "owner": "Aditi Rajagopal",
+        "skills":
+        [
+            {
+                "string": "Brogramming",
+                "percent": 9000
+            },
+            {
+               "string": "Trying new things",
+                "percent": 100
+            },
+            {
+                "string": "Critical thinking",
+                "percent": 70
+            }
+        ],
+        "additional":
+        [
+            {
+                "category": "Interests",
+                "entryImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/320px-Computer-aj_aj_ashton_01.svg.png",
+                "entries":
+                [
+                    {
+                        "text": "User Experience"
+                    },
+                    {
+                        "text": "Internet Rights"
+                    },
+			{
+			"text": "Bitcoin"
+			}
+                ]
+            },
+            {
+                "category": "Hobbies",
+                "entryImage": "./photos/fun.png",
+                "entries":
+                [
+                    {
+                        "text": "Rapid Prototyping"
+                    },
+                    {
+                        "text": "\"Having Fun\""
+                    }
+                ]
+            }
+        ]
+} 
+

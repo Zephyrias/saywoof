@@ -1,0 +1,80 @@
+{
+        "id": "charlie2", 
+        "name": "Chuck",
+        "profileImageUrl": "http://distilleryimage6.s3.amazonaws.com/13614b1a2cd411e2ab3822000a1fc30a_7.jpg",
+        "breed": "Bichon Frise",
+        "age": "5",        
+        "barklevel": "2",
+        "owner": "Aditi Rajagopal",
+        "skills":
+        [
+            {
+                "string": "coding",
+                "percent": 85
+            },
+            {
+               "string": "Eating Pizza",
+                "percent": 65
+            },
+            {
+                "string": "LEGO Building",
+                "percent": 95
+            }
+        ],
+        "additional":
+        [
+            {
+                "category": "Hobbies",
+                "entryImage": "photos/scuba.jpg",
+                "entries":
+                [
+                    {
+                        "text": "Scuba Diving" 
+                    },
+                    {
+                        "text": "Fishing"
+                    },
+                    {
+                        "text": "Videogames"
+                    },
+                    {
+                        "text": "Cooking Waffles"
+                    }
+                ]
+            },
+            {
+                "category": "LEGOs LEGOs and more LEGOs",
+                "entryImage": "photos/steampunk.jpg",
+                "entries":
+                [
+                    {
+                        "text": "I have been playing and building with LEGOs since I was a kid"
+                    },
+                    {
+                        "text": "I enjoy building big dioramas and have won some awards for my designs and displays"
+                    }
+                ]
+            },
+            {
+                "category": "My Dog",
+                "entryImage": "photos/max.jpeg",
+                "entries":
+                [
+                    {
+                        "text": "My best friend Max"
+                    }
+                ]
+            },
+            {
+                "category": "I used to have lots of hair",
+                "entryImage": "photos/beach.jpg",
+                "entries":
+                [
+                    {
+                        "text": "so much hair......"
+                    }
+                ]
+            }
+        ]
+} 
+
