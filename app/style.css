@@ -104,7 +104,7 @@ header h1{
 
 a.pic-link {
   display:block; /* allow height and width to be specified - not needed if floated */
-  width:85%; /* match img */
+  width:90%; /* match img */
   position:relative; /* so children of .pic-link can be positioned absolutely in relation it */ 
   color:#ffffff;
   }
