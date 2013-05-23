@@ -1,0 +1,76 @@
+{
+        "id": "charlie", 
+        "name": "Charlie",
+        "profileImageUrl": "http://distilleryimage9.s3.amazonaws.com/38e1648e341211e2be981231380492d8_7.jpg",
+        "breed": "Bichon Frise",
+        "age": "1",        
+        "barklevel": "3",
+        "owner": "Aditi Rajagopal",
+        "skills":
+        [
+            {
+                "string": "Cupcake Making",
+                "percent": 95
+            },
+            {
+               "string": "Ninja Photography",
+                "percent": 80
+            },
+            {
+                "string": "Being Tall",
+                "percent": 20
+            }
+        ],
+        "additional":
+        [
+            {
+                "category": "Interests",
+                "entryImage": "photos/LockerRoomAdventures.jpg",
+                "entries":
+                [
+                    {
+                        "text": "Watching and Playing Sports including: Tennis, Swimming, and of course FOOTBALL." 
+                    },
+                    
+{                        "text": "I also enjoy hanging out at the Michigan Football Stadium. Sometimes in the Locker Rooms. Sometimes in Lockers." 
+                    },
+
+                    {
+                        "text": "Improving my French. Because I currently have the vocabulary of a 10 year old."
+                    },
+                    {
+                        "text": "Web, Graphic and Logo Design; I find the intersection between advertising, design, and technology really cool"
+                    },
+                    {
+                        "text": "Cooking, Baking, Eating, and taking pictures of food!"
+                    }
+                ]
+            },
+            {
+                "category": "I often host Male Beauty Pageants",
+                "entryImage": "photos/MrEngineer2012.jpg",
+                "entries":
+                [
+                    {
+                        "text": "Yessir (or M'am) -- For the past 3 years, I have helped organize, direct and host the Mr. Engineer Competition."
+                    },
+                    {
+                        "text": "Check out the video here: http://www.youtube.com/watch?v=5S-pkPuA2VI"
+                    }
+                ]
+            },
+            {
+                "category": "Avid Instagrammer and Photographer",
+                "entryImage": "photos/HerroSexyLady.jpg",
+                "entries":
+                [
+                    {
+                        "text": "My camera follows me where ever I go -- it's just a basic point and shoot camera, but it gets the job done."
+                    },
+                    {
+                        "text": "I'm that kid who takes pictures of her food and posts it on instagram. I'm also a ninja photographer. You have been warned"
+                    }
+                ]
+            }
+        ]
+} 

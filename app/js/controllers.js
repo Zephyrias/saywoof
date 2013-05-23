@@ -19,5 +19,10 @@ function DogDetailCtrl($scope, $routeParams, $http) {
   });
 }
 
+function DogAddCtrl($scope, $routeParams, $http) {
+  $http.get('dogs/' + $routeParams.dogId + '.json').success(function(data) {
+   $scope.dog = data;
+  });
+}
 //PhoneDetailCtrl.$inject = ['$scope', '$routeParams', '$http'];
 

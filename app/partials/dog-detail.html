@@ -1,25 +1,22 @@
 <div id="container" class="cf">  
-
-    <article class="span1">
-        <a class="pic-link" href="#/dogs/{{dog.id}}">
-          <img src="http://distilleryimage9.s3.amazonaws.com/38e1648e341211e2be981231380492d8_7.jpg" style = "width : 100%"alt=""/>
-          <span><b>
-             Name: {{dog.name}}<br>
-             Owner: {{dog.id}}
-          </b></span>
-        </a>
+  <div id = "wrap" style = "height: 350px; padding: 20px; background-color: white">
+      <article class="span1">
+          <img src="{{dog.profileImageUrl}}" style = "width : 100%"alt=""/>
       </article>
 
       <aside class="span1 col">
-          <h2>aside h2</h2>
-          <p>Hello I am Dog. Hello I am Dog. Hello I am Dog. Hello I am Dog. Hello I am Dog. Hello I am Dog. 
-          Hello I am Dog. Hello I am Dog. Hello I am Dog. Hello I am Dog. Hello I am Dog. Hello I am Dog. 
-          Hello I am Dog. Hello I am Dog. Hello I am Dog. Hello I am Dog. Hello I am Dog. Hello I am Dog. </p>
-
-          <h2>aside h2</h2>
-          <p>Hello I am Dog. Hello I am Dog. Hello I am Dog. Hello I am Dog. Hello I am Dog. Hello I am Dog. 
-          Hello I am Dog. Hello I am Dog. Hello I am Dog. Hello I am Dog. Hello I am Dog. Hello I am Dog. 
-          Hello I am Dog. Hello I am Dog. Hello I am Dog. Hello I am Dog. Hello I am Dog. Hello I am Dog. </p>
+          <h2>Name: {{dog.name}}</h2>
+          <h3>Owner: {{dog.owner}}</h3>
+          <h3>Breed: {{dog.breed}}</h3>
+          <h3>Age: {{dog.age}}</h3>
+          <h3>Bark-O-Meter level: {{dog.barklevel}}</h3>
+          <br>
+          <h2>How to make {{dog.name}}'s Day</h2>
+          <p>Give me a squirrel. Noms.</p>
+          <p>Give me a squirrel. Noms.</p>
+          <p>Give me a squirrel. Noms.</p>
+          <p>Give me a squirrel. Noms.</p>
+          <p>Give me a squirrel. Noms.</p>
       </aside>
-
+    <div>
 </div> <!--! end of #container -->
